@@ -36,7 +36,7 @@ CineFlix es una aplicación móvil desarrollada con React Native CLI, que ofrece
 
 ## Contribución
 
-Si deseas contribuir a CineInfo, por favor sigue los siguientes pasos:
+Si deseas contribuir a CineFlix, por favor sigue los siguientes pasos:
 
 1. Haz un fork del repositorio
 2. Crea una rama para tu contribución
@@ -53,4 +53,4 @@ Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarme:
 
 * Correo electrónico: [percyzava@gmail.com]
 
-* GitHub: [tu-usuario-de-github]
+* GitHub: [https://github.com/percyzavala2000]
