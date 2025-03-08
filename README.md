@@ -1,97 +1,56 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# CineFlix
+====================================
 
-# Getting Started
+## Información de películas a tu alcance
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+CineFlix es una aplicación móvil desarrollada con React Native CLI, que ofrece información detallada de películas, incluyendo sinopsis, reparto, dirección, género, año de estreno y más.
 
-## Step 1: Start Metro
+## Tecnologías utilizadas
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+* **React Native CLI**: Framework para desarrollar aplicaciones móviles con React
+* **React Navigation Stack**: Biblioteca para gestionar la navegación en la aplicación
+* **Axios**: Biblioteca para realizar solicitudes HTTP a la API de TMDb
+* **Domain-Driven Design (DDD)**: Enfoque de diseño que se centra en el dominio del negocio y la estructura del código
+* **Estructura de carpetas**: Organizada según el patrón de Domain-Driven Design
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Características
 
-```sh
-# Using npm
-npm start
+* Información de películas actualizada y precisa
+* Búsqueda de películas por título, género, año de estreno y más
+* Detalles de cada película, incluyendo sinopsis, reparto, dirección y más
+* Diseño limpio y fácil de usar
 
-# OR using Yarn
-yarn start
-```
+## Instalación y uso
 
-## Step 2: Build and run your app
+### Pasos para instalar y ejecutar la aplicación
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+1. Clona el repositorio utilizando `git clone https://github.com/percyzavala2000/CineFlix.git`
+2. Instala las dependencias utilizando `npm install` o `yarn install`
+3. Ejecuta la aplicación utilizando `npx react-native run-android` o `npx react-native run-ios`
+4. Abre la aplicación en tu dispositivo móvil
 
-### Android
+## API de TMDb
 
-```sh
-# Using npm
-npm run android
+* **URL de la API**: `https://api.themoviedb.org/3/`
+* **Clave de API**: Reemplaza `TU_API_KEY` con tu propia clave de API de TMDb
 
-# OR using Yarn
-yarn android
-```
+## Contribución
 
-### iOS
+Si deseas contribuir a CineInfo, por favor sigue los siguientes pasos:
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+1. Haz un fork del repositorio
+2. Crea una rama para tu contribución
+3. Realiza tus cambios y haz un commit
+4. Haz un pull request para que podamos revisar tus cambios
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+## Licencia
 
-```sh
-bundle install
-```
+CineInfo está licenciado bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
-Then, and every time you update your native dependencies, run:
+## Contacto
 
-```sh
-bundle exec pod install
-```
+Si tienes alguna pregunta o necesitas ayuda, no dudes en contactarme:
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+* Correo electrónico: [percyzava@gmail.com]
 
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+* GitHub: [tu-usuario-de-github]
